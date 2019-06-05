@@ -4,21 +4,28 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <navbar>
+          <p>
+            Navbar goes here
+          </p>
+          <p>
+            Options like Create , Login (Login is for admin access)
+          </p>
+        </navbar>
+        
+        <search>
+          <p>
+            Search Bar with Buttons.  Search goes here
+            Search via Phone number
+          </p>
+        </search>
+        <results>
+          <p>
+            Shows content of the Search results
+          </p>
+        </results>
+
     </div>
   );
 }
