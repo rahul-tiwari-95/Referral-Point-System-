@@ -8,11 +8,6 @@ mongoose.connect("mongodb+srv://Rahul-Test:MK%40043074@sample-db-ud8rv.mongodb.n
 });
 
 
-
-
-const x = "9811730407";
-console.log(x.length)
-
 // const test = mongoose.model('crunch-referrals' , {
 
 //     name:{

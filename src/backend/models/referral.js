@@ -4,7 +4,7 @@ const validator = require("validator");
 //Declaring the Referral Object Structure
 
 
-const Referral = mongoose.modelNames("referral", {
+const Referral = mongoose.model("referral", {
 
     name:{
         type: String,
@@ -29,6 +29,9 @@ const Referral = mongoose.modelNames("referral", {
         }
     },
     countHit:{
-        type: Number
+        type: Number,
+        default: 0
     }
 })
+
+module.exports = Referral
